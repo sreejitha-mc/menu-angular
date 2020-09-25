@@ -1,0 +1,7 @@
+<div class="menu-container">
+    <ul>
+        <li *ngFor="let menu of menuList" (click)="openSubmenu(menu.id)">{{menu.item}}
+            <app-submenu *ngIf="menu.showSubmenu" [parentId]="menu.id"></app-submenu>
+        </li>
+    </ul>
+</div>

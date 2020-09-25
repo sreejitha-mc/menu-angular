@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: blueviolet;
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 84px;
+    color: white;
+}
+.menu-container {
+    margin-left: 80px;
+    margin-top: 62px;
+}
